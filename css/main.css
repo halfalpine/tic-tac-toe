@@ -55,7 +55,10 @@ p {
   z-index = 1;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 96vw;
+  height: 96vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
@@ -101,6 +104,7 @@ p {
   border: 0.5vw solid black;
   background-color: white;
   margin: 0;
+  font-size: 3vw;
 }
 
 #quit {
